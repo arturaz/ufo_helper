@@ -1,0 +1,15 @@
+= UFO helper
+
+Rails helper for Unobtrusive Flash Object (UFO).
+ 
+By Artūras Šlajus <x11@arturaz.net> (skype: arturaz_)
+
+== Usage
+
+  <div id="flash_movie">Flash</div>
+  <%= ufo("flash_movie", "movies/flash", :width => 640, :height => 480) %>
+
+or
+
+  <%= ufo_div("flash_movie", "movies/flash", :width => 640, 
+    :height => 480) %>
