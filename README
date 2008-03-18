@@ -6,6 +6,10 @@ By Artūras Šlajus <x11@arturaz.net> (skype: arturaz_)
 
 == Usage
 
+Add "ufo" to your javascript_include_tag.
+
+Then add this to your .html.erb
+
   <div id="flash_movie">Flash</div>
   <%= ufo("flash_movie", "movies/flash", :width => 640, :height => 480) %>
 
